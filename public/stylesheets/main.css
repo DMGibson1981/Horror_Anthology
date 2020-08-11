@@ -1,0 +1,21 @@
+body {
+    background: #0e0c0c;
+    color: white;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    align-self: center;
+}
+
+p {
+    align-self: center;
+}
+
+img {
+    padding-left: 15em;
