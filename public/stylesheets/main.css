@@ -1,6 +1,8 @@
 body {
     background: #0e0c0c;
     color: white;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-size: 1.5em;
 }
 
 #title {
@@ -14,9 +16,15 @@ h1 {
 }
 
 p {
-    align-self: center;
+    align-self: right;
 }
 
 img {
-    padding-left: 15em;
+    padding-left: 10em;
+}
+
+
+li #navbarSupportedContent {
+    display: flex;
+    justify-content: space-between;
 }
