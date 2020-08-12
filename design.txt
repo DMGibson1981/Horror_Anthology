@@ -1,0 +1,29 @@
+Ideas
+
+Horror files
+
+home
+splash page and information files
+
+authors
+template {
+    name: String,
+    dob: String,
+    genre: String,
+    stories: {
+        title: String,
+        story: String
+    }
+}
+
+stories
+Display the story
+- Display stories:title
+- Display stories:story
+
+
+requests
+-form to request other authors or stories
+Form goes to database and is diplayed on the page.
+Admin can check off those requests accepted and placed
+

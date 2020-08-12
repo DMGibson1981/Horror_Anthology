@@ -1,5 +1,7 @@
 var express = require("express");
 var app = express();
+var mongoose = require("mongoose");
+var bodyParser = require("body-parser");
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
