@@ -2,6 +2,7 @@ var express = require("express");
 var app = express();
 var mongoose = require("mongoose");
 var bodyParser = require("body-parser");
+var authors = require("./models/authors");
 // var seedDB = require("./seeds"); 
 
 app.set("view engine", "ejs");
