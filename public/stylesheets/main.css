@@ -19,12 +19,24 @@ p {
     align-self: right;
 }
 
-img {
+#splash {
     padding-left: 10em;
 }
 
+.card-text {
+    color: black;
+}
 
 li #navbarSupportedContent {
     display: flex;
     justify-content: space-between;
+}
+.card {
+    margin-bottom: 1em;
+    float: left;
+}
+
+.card-img-top {
+    height: 20rem;
+    width: 100%;
 }

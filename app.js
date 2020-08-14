@@ -21,7 +21,17 @@ app.get("/", function(req, res){
     res.render("home");
 });
 
+app.get("/authors", function(req, res){
+    res.render("authors");
+});
 
+app.get("/stories", function(req, res){
+    res.render("stories");
+});
+
+app.get("/requests", function(req, res){
+    res.render("requests");
+});
 
 app.listen(process.env.PORT || 3000, process.env.IP, function(){
     console.log("The horor anthology site is active.");
