@@ -18,22 +18,21 @@ h1 {
 .card-text {
     color: black;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-li #navbarSupportedContent {
-    display: flex;
-    justify-content: space-between;
-}
 .card {
     margin-bottom: 1em;
     width: 80%;
+    height: 21rem;
     margin-left: 2rem;
 }
 
-.card-img-top {
+/* .card-img-top {
     height: 15rem;
     width: 100%;
-}
+} */
 
 #intro {
     padding-left: 3rem;
@@ -41,9 +40,8 @@ li #navbarSupportedContent {
 }
 
 #authors {
-    display: flex;
-    justify-content: center ;
-    align-items: center ;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 #signal {
