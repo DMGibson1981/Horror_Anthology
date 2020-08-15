@@ -15,16 +15,9 @@ h1 {
     align-self: center;
 }
 
-p {
-    align-self: right;
-}
-
-#splash {
-    padding-left: 10em;
-}
-
 .card-text {
     color: black;
+    text-align: center;
 }
 
 li #navbarSupportedContent {
@@ -33,10 +26,28 @@ li #navbarSupportedContent {
 }
 .card {
     margin-bottom: 1em;
-    float: left;
+    width: 80%;
+    margin-left: 2rem;
 }
 
 .card-img-top {
-    height: 20rem;
+    height: 15rem;
     width: 100%;
+}
+
+#intro {
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+
+#authors {
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+#signal {
+    text-shadow: grey;
+    color: silver;
+    font-size: 1.7rem;
 }
