@@ -22,17 +22,16 @@ h1 {
     align-items: center;
 }
 
+p .card-text {
+    width: 100%;
+}
+
 .card {
     margin-bottom: 1em;
     width: 80%;
-    height: 21rem;
+    height: 25rem;
     margin-left: 2rem;
 }
-
-/* .card-img-top {
-    height: 15rem;
-    width: 100%;
-} */
 
 #intro {
     padding-left: 3rem;
@@ -44,8 +43,31 @@ h1 {
     margin-right: 25%;
 }
 
-#signal {
-    text-shadow: grey;
+.dickens {
     color: silver;
     font-size: 1.7rem;
+}
+
+.james {
+    color: lightgray;
+}
+
+.lovecraft {
+    color: green;
+}
+
+.poe {
+    color: crimson;
+}
+
+.lefanu {
+    color: rgb(96, 139, 139);
+}
+
+.stoker {
+    color: rgb(251, 4, 16);
+}
+
+.proc {
+    color: silver;
 }
