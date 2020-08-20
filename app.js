@@ -33,28 +33,60 @@ app.get("/requests", function(req, res){
     res.render("requests");
 });
 
+
+//=========Author Routes==============
 app.get("/dickens", function(req, res){
-    res.render("authors/dickens");
+    res.render("dickens");
 });
 
 app.get("/james", function(req, res){
-    res.render("authors/james");
+    res.render("james");
 });
 
 app.get("/lefanu", function(req, res){
-    res.render("authors/lefanu");
+    res.render("lefanu");
 });
 
 app.get("/lovecraft", function(req, res){
-    res.render("authors/lovecraft");
+    res.render("lovecraft");
 });
 
 app.get("/poe", function(req, res){
-    res.render("authors/poe");
+    res.render("poe");
 });
 
 app.get("/stoker", function(req, res){
-    res.render("authors/stoker");
+    res.render("stoker");
+});
+
+//===========Story Routes=========== 
+
+app.get("/dickens/signal", function(req, res){
+    res.render("dickens/signal");
+});
+
+app.get("/james/ashtree", function(req, res){
+    res.render("james/ashtree");
+});
+
+app.get("/lefanu/bonesetter", function(req, res){
+    res.render("lefanu/bonesetter");
+});
+
+app.get("/lovecraft/polaris", function(req, res){
+    res.render("lovecraft/polaris");
+});
+
+app.get("/poe/reddeath", function(req, res){
+    res.render("poe/reddeath");
+});
+
+app.get("/poe/telltaleheart", function(req, res){
+    res.render("poe/telltaleheart");
+});
+
+app.get("/stoker/dracguest", function(req, res){
+    res.render("stoker/dracguest");
 });
 
 app.listen(process.env.PORT || 3000, process.env.IP, function(){
