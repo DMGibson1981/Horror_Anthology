@@ -59,7 +59,7 @@ app.get("/stoker", function(req, res){
     res.render("stoker");
 });
 
-//===========Story Routes=========== 
+//===========Story Routes===========
 
 app.get("/dickens/signal", function(req, res){
     res.render("dickens/signal");
