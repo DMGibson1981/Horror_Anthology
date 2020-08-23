@@ -5,6 +5,19 @@ body {
     font-size: 1.5em;
 }
 
+#display {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h2 {
+    margin-bottom: 3rem;
+}
+
+p {
+    margin-bottom: 1.8rem;
+}
+
 #title {
     display: flex;
     flex-direction: column;
@@ -100,4 +113,22 @@ h1 {
 
 .proc {
     color: silver;
+}
+
+nav {
+    font-size: 2rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.navbar-nav > li{
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.container > p {
+    padding-bottom: 2rem;
 }
