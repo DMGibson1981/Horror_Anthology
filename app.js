@@ -2,8 +2,7 @@ var express = require("express");
 var app = express();
 var mongoose = require("mongoose");
 var bodyParser = require("body-parser");
-var authors = require("./models/authors");
-// var seedDB = require("./seeds"); 
+var Comments = require("./models/comments");
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
@@ -31,6 +30,27 @@ app.get("/stories", function(req, res){
 
 app.get("/requests", function(req, res){
     res.render("requests");
+});
+
+app.post("/requests", function(req, res){
+    var name = req.body.name;
+    var work = req.body.work;
+    var newRequest = {name: name, work: work};
+    Comments.create(newRequest, function(err, newlyCreated){
+        if(err){
+            console.log(err);
+        } else {
+            console.log(newlyCreated);
+            res.redirect("requests");
+        }
+    });
+    // Comments.find({}, function(err, allComments){
+    //     if(err){
+    //         console.log(err);
+    //     } else {
+    //         res.render("/requests", {comments:allComments});
+    //     }
+    // });
 });
 
 
